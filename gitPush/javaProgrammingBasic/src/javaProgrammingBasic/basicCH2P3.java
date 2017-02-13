@@ -4,7 +4,7 @@ public class basicCH2P3 {
 	public static void main(String[] args)
 	{
 	 	System.out.println(123);
-		System.out.println("\\100 ¹Ş¾Ò´Ù");
-		System.out.println("³»ÀÏ ¶Ç ¸¸³ª¿ä");
+		System.out.println("\\100ë°›ì•˜ë‹¤");
+		System.out.println("ë‚´ì¼ ë˜ ë§Œë‚˜ìš”");
 	}
 }
