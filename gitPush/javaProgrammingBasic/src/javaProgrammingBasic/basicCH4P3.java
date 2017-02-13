@@ -4,11 +4,11 @@ import java.io. *;
 public class basicCH4P3 {
 	public static void main(String[] args) throws IOException
 	{
-		System.out.println("Á¤»ç°¢ÇüÀÇ ÇÑ º¯ÀÇ ±æÀÌ¸¦ ÀÔ·ÂÇÏ½Ê½Ã¿À."); 
+		System.out.println("ì •ì‚¬ê°í˜•ì˜ í•œ ë³€ì˜ ê¸¸ì´ë¥¼ ì…ë ¥í•˜ì‹­ì‹œì˜¤."); 
 		BufferedReader side = new BufferedReader(new InputStreamReader(System.in));
 		String strSide=side.readLine();
 		Integer intSide=Integer.parseInt(strSide);
-		System.out.println("Á¤»ç°¢ÇüÀÇ ³ĞÀÌ´Â " + intSide*intSide + "ÀÔ´Ï´Ù."); 
+		System.out.println("ì •ì‚¬ê°í˜•ì˜ ë„“ì´ëŠ” " + intSide*intSide + "ì…ë‹ˆë‹¤."); 
 		
 	}
 }

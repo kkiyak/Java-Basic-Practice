@@ -4,14 +4,14 @@ import java.io. *;
 public class basicCH4P4 {
 	public static void main(String[] args) throws IOException
 	{
-		System.out.println("»ï°¢ÇüÀÇ ¹Øº¯°ú ³ôÀÌ¸¦ ÀÔ·ÂÇÏ½Ê½Ã¿À."); 
+		System.out.println("ì‚¼ê°í˜•ì˜ ë°‘ë³€ê³¼ ë†’ì´ë¥¼ ì…ë ¥í•˜ì‹­ì‹œì˜¤."); 
 		BufferedReader base = new BufferedReader(new InputStreamReader(System.in));
 		String strBase=base.readLine();
 		Integer intBase=Integer.parseInt(strBase);
 		BufferedReader height = new BufferedReader(new InputStreamReader(System.in));
 		String strHeight=height.readLine();
 		Integer intHeight=Integer.parseInt(strHeight);
-		System.out.println("»ï°¢ÇüÀÇ ³ĞÀÌ´Â " + (double)(intHeight*intBase)/2 + "ÀÔ´Ï´Ù."); 
+		System.out.println("ì‚¼ê°í˜•ì˜ ë„“ì´ëŠ” " + (double)(intHeight*intBase)/2 + "ì…ë‹ˆë‹¤."); 
 		
 	}
 	

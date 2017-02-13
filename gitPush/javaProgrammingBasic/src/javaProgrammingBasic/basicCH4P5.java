@@ -5,18 +5,18 @@ import java.io. *;
 public class basicCH4P5 {
 	public static void main(String[] args) throws IOException
 	{
-		System.out.println("°ú¸ñ 1~5ÀÇ Á¡¼ö¸¦ Á¤¼ö·Î ÀÔ·ÂÇÏ½Ê½Ã¿À."); 
+		System.out.println("ê³¼ëª© 1~5ì˜ ì ìˆ˜ë¥¼ ì •ìˆ˜ë¡œ ì…ë ¥í•˜ì‹­ì‹œì˜¤."); 
 		
 		Integer intSum = 0;
 		
-		//¹İº¹¹® ¾ÆÁ÷ ¾È³ª¿Ô´Âµ¥ ±ÍÂú¾Æ¼­ ±×³É ½èÀ½..
+		//ë°˜ë³µë¬¸ ì•„ì§ ì•ˆë‚˜ì™”ì§€ë§Œ ê·€ì°®ì•„ì„œ ê·¸ëƒ¥ ì”€..
 		for(int i=1; i<=5; i++){
 			BufferedReader score = new BufferedReader(new InputStreamReader(System.in));
 			String strScore=score.readLine();
 			Integer intScore=Integer.parseInt(strScore);
 			intSum = intSum+intScore;
 			}
-		System.out.println("5°ú¸ñÀÇ ÇÕ°è´Â " + intSum + "Á¡ÀÔ´Ï´Ù."); 
-		System.out.println("5°ú¸ñÀÇ Æò±ÕÀº " + (double)intSum/5 + "Á¡ÀÔ´Ï´Ù."); 
+		System.out.println("5ê³¼ëª©ì˜ í•©ê³„ëŠ” " + intSum + "ì ì…ë‹ˆë‹¤."); 
+		System.out.println("5ê³¼ëª©ì˜ í‰ê· ì€ " + (double)intSum/5 + "ì ì…ë‹ˆë‹¤."); 
 	}
 }

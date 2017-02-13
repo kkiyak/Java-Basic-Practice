@@ -4,10 +4,10 @@ import java.io. *;
 public class basicCH3P4 {
 	public static void main(String[] args) throws IOException
 	{
-	System.out.println("¿øÁÖÀ²ÀÇ °ªÀº ¾ó¸¶ÀÔ´Ï±î?"); 
+	System.out.println("ì›ì£¼ìœ¨ì˜ ê°’ì€ ì–¼ë§ˆì…ë‹ˆê¹Œ?"); 
 	BufferedReader pi = new BufferedReader(new InputStreamReader(System.in));
 	String strPi=pi.readLine();
 	double doublePi=Double.parseDouble(strPi);
-	System.out.println("¿øÁÖÀ²ÀÇ °ªÀº " + doublePi + "ÀÔ´Ï´Ù.");
+	System.out.println("ì›ì£¼ìœ¨ì˜ ê°’ì€ " + doublePi + "ì…ë‹ˆë‹¤.");
 	}
 }

@@ -4,11 +4,11 @@ import java.io. *;
 public class basicCH3P3 {
 	public static void main(String[] args) throws IOException
 	{
-		System.out.println("´ç½ÅÀº ¸î »ìÀÔ´Ï±î?"); 
+		System.out.println("ë‹¹ì‹ ì€ ëª‡ ì‚´ì…ë‹ˆê¹Œ?"); 
 		BufferedReader age = new BufferedReader(new InputStreamReader(System.in));
 		String strAge=age.readLine();
 		int IntAge=Integer.parseInt(strAge);
-		System.out.println("´ç½ÅÀº " + IntAge + "»ìÀÔ´Ï´Ù.");
+		System.out.println("ë‹¹ì‹ ì€ " + IntAge + "ì‚´ì…ë‹ˆë‹¤.");
 		
 	}
 }
