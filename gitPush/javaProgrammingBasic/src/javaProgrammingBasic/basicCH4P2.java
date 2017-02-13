@@ -1,8 +1,9 @@
 package javaProgrammingBasic;
+import java.io. *;
 
 
 public class basicCH4P2 {
-	public static void main(String[] args)
+	public static void main(String[] args) throws IOException
 	{
 	System.out.println("0-4ดย " + (0-4));
 	
