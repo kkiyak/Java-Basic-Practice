@@ -17,7 +17,5 @@ public class basicCH5P3 {
 		if(intNum1<intNum2) System.out.println(intNum1 + "보다 " + intNum2 + "이(가) 큽니다.");
 		else if(intNum1>intNum2) System.out.println(intNum2 + "보다 " + intNum1 + "이(가) 큽니다.");
 		else System.out.println("두 숫자는 같습니다."); 
-		//else if (intNum1<intNum2) System.out.println(intNum1 + "이 " + intNum2 + "보다 작습니다.");
-		//else System.out.println(intNum1 + "와(과) " + intNum2 + "이 같습니다.");
 	}
 }
