@@ -47,8 +47,8 @@ class MyPoint9
 public class basicCH9P5 {
 	public static void main(String[] args) throws IOException
 	{
-		MyPoint9 mp1=new MyPoint9();
-		MyPoint9 mp2=new MyPoint9(1,99);
+		MyPoint9 mp1=new MyPoint9(); //생성자 1
+		MyPoint9 mp2=new MyPoint9(1,99); //생성자 2
 		
 		System.out.println("x, y 좌표를 입력하십시오.");
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -60,8 +60,11 @@ public class basicCH9P5 {
 		
 		int mp1x = mp1.getX();
 		int mp1y = mp1.getY();
+		int mp2x = mp2.getX();
+		int mp2y = mp2.getY();
 		
-		System.out.println("x= "+mp1x + ", y= "+ mp1y);
+		System.out.println("생성자 1 : x= "+mp1x + ", y= "+ mp1y);
+		System.out.println("생성자 2 : x= "+mp2x + ", y= "+ mp2y);
 
 	}
 }
