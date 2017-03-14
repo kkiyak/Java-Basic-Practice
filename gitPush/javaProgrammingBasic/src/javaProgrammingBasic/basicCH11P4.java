@@ -19,12 +19,11 @@ class Car
 		System.out.println("차량 번호를" + num + "으로, 연료 양을 "+gas+"로 바꾸었습니다.");
 	}
 	
-	public void show()
+	public String show()
 	{
-		System.out.println("차량 번호 "+num+" 연료 양 "+gas+"인 자동차입니다.");
+		String str="차량 번호 "+num+" 연료 양 "+gas+"인 자동차";
+		return str;
 	}
-	
-	
 }
 
 public class basicCH11P4 {
@@ -32,6 +31,8 @@ public class basicCH11P4 {
 	{
 		Car car1=new Car();
 		car1.setCar(1234, 20.5);
-		car1.show();
+				
+		System.out.println(car1.show()+"입니다.");
+		
 	}
 }
